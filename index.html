@@ -1,0 +1,574 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!--=============== FAVICON ===============-->
+        <link rel="shortcut icon" href="" type="image/x-icon">
+
+        <!--=============== BOXICONS ===============-->
+        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+        
+        <!--=============== SWIPER CSS ===============-->
+        <link 
+        rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+        />
+
+        <!--=============== CSS ===============-->
+        <link rel="stylesheet" href="css/styles.css">
+
+        <title>MNRA website</title>
+    </head>
+    <body>
+        <!--==================== HEADER ====================-->
+        <header class="header" id="header">
+            <nav class="nav container">
+                <a href="#" class="nav_logo">
+                    MNRA <i class="bx bxs-home-alt-2"></i>
+                </a>
+
+                <div class="nav_menu">
+                    <ul class="nav_list">
+                        <li class="nav_item">
+                            <a href="#home" class="nav_link active-link">
+                                <i class='bx bx-home-alt-2' ></i>
+                                <span>Home</span>
+                            </a>
+                        </li>
+
+                        <li class="nav_item">
+                            <a href="#popular" class="nav_link">
+                                <i class='bx bx-building-house' ></i>
+                                <span>Residences</span>
+                            </a>
+                        </li>
+
+                        <li class="nav_item">
+                            <a href="#value" class="nav_link">
+                                <i class='bx bx-award' ></i>
+                                <span>Value</span>
+                            </a>
+                        </li>
+
+                        <li class="nav_item">
+                            <a href="#contact" class="nav_link">
+                                <i class='bx bx-phone' ></i>
+                                <span>Contact</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+                <!--==================== Theme change button ====================-->
+                <i class='bx bx-moon change-theme' id="theme-button"></i>
+
+                <a href="#" class="button nav_button">
+                    Newsletter
+                </a>
+            </nav>
+        </header>
+
+        <!--==================== MAIN ====================-->
+        <main class="main">
+            <!--==================== HOME ====================-->
+            <section class="home section" id="home">
+                <div class="home_container container grid">
+                    <div class="home_data">
+                        <h1 class="home_title">
+                            Muthaiga <br> North Residents <br> Association
+                        </h1>
+                        <p class="home_description">
+                            Muthaiga North Residents' Association provides a forum for residents to meet formally,
+                            to consider matters of local concern and importance. To encourage and promote a sense,
+                            of community spirit.
+                            
+                        </p>
+
+                        <!--<form action="" class="home_search">
+                            <i class="bx bxs-map"></i>
+                            <input type="search" placeholder="Search by location..." class="home_search-input">
+                            <button class="button">Search</button>
+                        </form> -->
+
+                        <div class="home_value">
+                            <div>
+                                <h1 class="home_value-number">
+                                    200 <span>+</span>
+                                </h1>
+                                <span class="home_value-description">
+                                    Families
+                                </span>
+                            </div>
+
+                            <div>
+                                <h1 class="home_value-number">
+                                    100 <span>%</span>
+                                </h1>
+                                <span class="home_value-description">
+                                    Clean
+                                </span>
+                            </div>
+
+                            <div>
+                                <h1 class="home_value-number">
+                                    100 <span>%</span>
+                                </h1>
+                                <span class="home_value-description">
+                                    Peaceful
+                                </span>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="home_images">
+                        <div class="home_orbe"></div>
+
+                        <div class="home_img">
+                            <img src="images/house.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!--==================== LOGOS ====================-->
+            <section class="logos section">
+                <div class="logos_container container grid">
+                    <div class="logos_img">
+                        <img src="images/logo.png" alt="">
+                    </div>
+
+                    <div class="logos_img">
+                        <img src="images/logo2.png" alt="">
+                    </div>
+
+                    <div class="logos_img">
+                        <img src="images/logo3.png" alt="">
+                    </div>
+
+                    <div class="logos_img">
+                        <img src="images/logo4.jpg" alt="">
+                    </div>
+                </div>
+            </section>
+
+            <!--==================== POPULAR ====================-->
+            <section class="popular section" id="popular">
+                <div class="container">
+                    <span class="section_subtitle">Best Choice</span>
+                    <h2 class="section_title">
+                        Popular Residences<span></span>
+                    </h2>
+
+                    <div class="popular_container swiper">
+                        <div class="swiper-wrapper">
+                            <article class="popular_card swiper-slide">
+                                <img src="images/popular.jpg" alt="" class="popular_img">
+
+                                <div class="popular_data">
+                                    <!-- <h2 class="popular_price">
+                                        <span>Ksh</span>100,000,000
+                                    </h2>
+                                    <h3 class="popular_title">
+                                        City on the Hill -->
+                                    </h3>
+                                    <p class="popular_description">
+                                        Muthaiga Parkside
+                                    </p>
+                                </div>
+                            </article>
+
+                            <article class="popular_card swiper-slide">
+                                <img src="images/popular2.jpg" alt="" class="popular_img">
+
+                                <div class="popular_data">
+                                    <!--<h2 class="popular_price">
+                                        <span>Ksh</span>120,000,000
+                                    </h2>
+                                    <h3 class="popular_title">
+                                        Big Chief -->
+                                    </h3>
+                                    <p class="popular_description">
+                                        Muthaiga Dawns
+                                    </p>
+                                </div>
+                            </article>
+
+                            <article class="popular_card swiper-slide">
+                                <img src="images/popular3.jpg" alt="" class="popular_img">
+
+                                <div class="popular_data">
+                                  <!--  <h2 class="popular_price">
+                                        <span>Ksh</span>170,000,000
+                                    </h2>
+                                    <h3 class="popular_title">
+                                        Bright Light -->
+                                    </h3>
+                                    <p class="popular_description">
+                                        Countryside Villas
+                                    </p>
+                                </div>
+                            </article>
+
+                            <article class="popular_card swiper-slide">
+                                <img src="images/popular4.jpg" alt="" class="popular_img">
+
+                                <div class="popular_data">
+                                  <!--  <h2 class="popular_price">
+                                        <span>Ksh</span>200,000,000
+                                    </h2>
+                                    <h3 class="popular_title">
+                                        Peaceful Home -->
+                                    </h3>
+                                    <p class="popular_description">
+                                        West end Court
+                                    </p>
+                                </div>
+                            </article>
+                        </div>
+
+                        <div class="swiper-button-next">
+                            <i class="bx bx-chevron-right"></i>
+                        </div>
+                        <div class="swiper-button-prev">
+                            <i class="bx bx-chevron-left"></i>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!--==================== VALUE ====================-->
+            <section class="value section" id="value">
+                <div class="value_container container grid">
+                    <div class="value_images">
+                        <div class="value_orbe"></div>
+
+                        <div class="value_img">
+                            <img src="images/value.jpg" alt="">
+                        </div>
+                    </div>
+
+                    <div class="value_content">
+                        <div class="value_data">
+                            <span class="section_subtitle">Our Value</span>
+                            <h2 class="section_title">
+                                Value We Give To You<span>.</span>
+                            </h2>
+                            <p class="value_description">
+                                We believe a good place to live can make your life better.
+                                We are always ready to help by providing the best service for you.
+                            </p>
+                        </div>
+
+                        <div class="value_accordion">
+                            <div class="value_accordion-item">
+                                <header class="value_accordion-header">
+                                    <i class="bx bxs-shield-x value_accordion-icon"></i>
+                                    <h3 class="value_accordion-title">
+                                        Security
+                                    </h3>
+                                    <div class="value_accordion-arrow">
+                                        <i class="bx bxs-down-arrow"></i>
+                                    </div>
+                                </header>
+
+                                <div class="value_accordion-content">
+                                    <p class="value_accordion-description">
+                                        A Quiet, Green, Clean, Safe and Organized 
+                                        Neighborhood that conforms to Legal Building and Amenities Codes.
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="value_accordion-item">
+                                <header class="value_accordion-header">
+                                    <i class="bx bxs-x-square value_accordion-icon"></i>
+                                    <h3 class="value_accordion-title">
+                                        Community Spirit
+                                    </h3>
+                                    <div class="value_accordion-arrow">
+                                        <i class="bx bxs-down-arrow"></i>
+                                    </div>
+                                </header>
+
+                                <div class="value_accordion-content">
+                                    <p class="value_accordion-description">
+                                        A Quiet, Green, Clean, Safe and Organized 
+                                        Neighborhood that conforms to Legal Building and Amenities Codes.
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="value_accordion-item">
+                                <header class="value_accordion-header">
+                                    <i class="bx bxs-bar-chart-square value_accordion-icon"></i>
+                                    <h3 class="value_accordion-title">
+                                        Peaceful
+                                    </h3>
+                                    <div class="value_accordion-arrow">
+                                        <i class="bx bxs-down-arrow"></i>
+                                    </div>
+                                </header>
+
+                                <div class="value_accordion-content">
+                                    <p class="value_accordion-description">
+                                        A Quiet, Green, Clean, Safe and Organized 
+                                        Neighborhood that conforms to Legal Building and Amenities Codes.
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="value_accordion-item">
+                                <header class="value_accordion-header">
+                                    <i class="bx bxs-check-square value_accordion-icon"></i>
+                                    <h3 class="value_accordion-title">
+                                        Air residents' views and concerns
+                                    </h3>
+                                    <div class="value_accordion-arrow">
+                                        <i class="bx bxs-down-arrow"></i>
+                                    </div>
+                                </header>
+
+                                <div class="value_accordion-content">
+                                    <p class="value_accordion-description">
+                                        A Quiet, Green, Clean, Safe and Organized 
+                                        Neighborhood that conforms to Legal Building and Amenities Codes.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!--==================== CONTACT ====================-->
+            <section class="contact section" id="contact">
+                <div class="contact_container container grid">
+                    <div class="contact_images">
+                        <div class="contact_orbe"></div>
+
+                        <div class="contact_img">
+                            <img src="images/contact.png" alt="">
+                        </div>
+                    </div>
+
+                    <div class="contact_content">
+                        <div class="contact_data">
+                            <span class="section_subtitle">Contact Us</span>
+                            <h2 class="section_title">
+                                Easy to Contact Us<span>.</span>
+                            </h2>
+                            <p class="contact_description">
+                                Is there a problem that you need to be addressed?
+                                Need a consultation on residential issues? Just contact us.
+                            </p>
+                        </div>
+
+                        <div class="contact_card">
+                            <div class="contact_card-box">
+                                <div class="contact_card-info">
+                                    <i class='bx bxs-phone-call'></i>
+
+                                    <div>
+                                        <h3 class="contact_card-title">
+                                            Call
+                                        </h3>
+                                        <p class="contact_card-description">
+                                            0735811069
+                                        </p>
+                                    </div>
+                                </div>
+
+                                <button class="button contact_card-button">
+                                    Call Now
+                                </button>
+                            </div>
+
+                            <div class="contact_card-box">
+                                <div class="contact_card-info">
+                                    <i class='bx bxs-message-rounded-dots'></i>
+
+                                    <div>
+                                        <h3 class="contact_card-title">
+                                            Chat
+                                        </h3>
+                                        <p class="contact_card-description">
+                                            0735811069
+                                        </p>
+                                    </div>
+                                </div>
+
+                                <button class="button contact_card-button">
+                                    Chat Now
+                                </button>
+                            </div>
+
+                            <div class="contact_card-box">
+                                <div class="contact_card-info">
+                                    <i class='bx bxs-envelope'></i>
+                                    <div>
+                                        <h3 class="contact_card-title">
+                                            Email
+                                        </h3>
+                                        <!--<p class="contact_card-description">
+                                            mnra.or.ke
+                                        </p> -->
+                                    </div>
+                                </div>
+
+                                
+                                <button class="button contact_card-button">
+                                <a href="mailto: communication@mnra.or.ke">
+                                    Email Now
+                                </a>
+                                </button>
+                            </div>
+
+                            <div class="contact_card-box">
+                                <div class="contact_card-info">
+                                    <i class='bx bxs-envelope'></i>
+                                    <div>
+                                        <h3 class="contact_card-title">
+                                            Message
+                                        </h3>
+                                        <p class="contact_card-description">
+                                            0735811069
+                                        </p>
+                                    </div>
+                                </div>
+
+                                <button class="button contact_card-button">
+                                    Message Now
+                                </button>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!--==================== SUBSCRIBE ====================-->
+            <section class="subscribe section">
+                
+            </section>
+        </main>
+
+        <!--==================== FOOTER ====================-->
+        <footer class="footer section">
+            <div class="footer_container container grid">
+                <div>
+                    <a href="#" class="footer_logo">
+                        MNRA <i class='bx bxs-home-alt-2'></i>
+                    </a>
+                    <p class="footer_description">
+                        Our vision is to make Muthaiga North <br>
+                        the best place to live for our residents.
+                    </p>
+                </div>
+
+                <div class="footer_content">
+                    <div>
+                        <h3 class="footer_title">
+                            About
+                        </h3>
+
+                        <ul class="footer_links">
+                            <li>
+                                <a href="#" class="footer_link">About Us</a>
+                            </li>
+                            <li>
+                                <a href="#" class="footer_link">Features</a>
+                            </li>
+                            <li>
+                                <a href="#" class="footer_link">News & Blog</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                   <!-- <div>
+                        <h3 class="footer_title">
+                            Company
+                        </h3>
+
+                        <ul class="footer_links">
+                            <li>
+                                <a href="#" class="footer_link">How We Work?</a>
+                            </li>
+                            <li>
+                                <a href="#" class="footer_link">Capital</a>
+                            </li>
+                            <li>
+                                <a href="#" class="footer_link">Security</a>
+                            </li>
+                        </ul>
+                    </div> -->
+
+                    <div>
+                        <h3 class="footer_title">
+                            Support
+                        </h3>
+
+                        <ul class="footer_links">
+                            <li>
+                                <a href="#" class="footer_link">FAQs</a>
+                            </li>
+                            <li>
+                                <a href="#" class="footer_link">Support Center</a>
+                            </li>
+                            <li>
+                                <a href="#" class="footer_link">Contact Us</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div>
+                        <h3 class="footer_title">
+                            Follow Us
+                        </h3>
+
+                        <ul class="footer_social">
+                            <a href="https://www.facebook.com/profile.php?id=100086675150171" target="_blank" class="footer_social-link">
+                                <i class='bx bxl-facebook-circle'></i>
+                            </a>
+                            <a href="https://www.instagram.com/muthaiganorthresidents/" target="_blank" class="footer_social-link">
+                                <i class='bx bxl-instagram-alt'></i>  
+                            </a>
+                            <a href="https://twitter.com/MuthaigaNorthRA" target="_blank" class="footer_social-link">
+                                <i class='bx bxl-twitter'></i>                                
+                            </a>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer_info container">
+                <span class="footer_copy">
+                    Mbiraru & Jos Devs. All rights reserved.
+                </span>
+
+                <div class="footer_privacy">
+                    <a href="#">Terms & Agreements</a>
+                    <a href="#">Privacy Policy</a>
+                </div>
+            </div>
+
+        </footer>
+
+
+        <!--========== SCROLL UP ==========-->
+        <a href="#" class="scrollup" id="scroll-up">
+            <i class='bx bx-chevrons-up'></i>
+        </a>
+
+        <!--=============== SCROLLREVEAL ===============-->
+        <script src="https://unpkg.com/scrollreveal"></script>
+
+        <!--=============== SWIPER JS ===============-->
+        <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+
+        <!--=============== MAIN JS ===============-->
+        <script src="js/main.js"></script>
+    </body>
+</html>
